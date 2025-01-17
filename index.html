@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Carpooling
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>Green Ride+</h1>
+        <nav>
+           <a href="#">Home</a>
+           <a href="#">Find A Rider</a>
+           <a href="#">Available Rides</a>
+              <a href="#">About Us</a>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <h2>Smart Carpooling for Greener Future</h2>
+        <p>Save time, save money, and save the planet by sharing the ride.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </section>
+    
+    <section class="carpool-form" id="form">
+        <h3>Find a Ride</h3>
+        <form action="" id="rideform">
+            <label for="from">Current Location:</label>
+            <input type="text" id="from" name="from" placeholder="Enter your current location" required>
+
+            <label for="to">Destination:</label>
+            <input type="text" id="to" name="to" placeholder="Enter your destination" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="waitTime">Approximate Wait Time (minutes):</label>
+            <input type="number" id="waitTime" name="waitTime" required>
+
+            <button type="submit">Search Rides</button>
+        </form>
+    </section>
+
+    <section class="rides" id="rides">
+        <h3>Available Rides</h3>
+        <div id="rideResults">
+            <p>No rides at the moment.Please try again in sometime.</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
