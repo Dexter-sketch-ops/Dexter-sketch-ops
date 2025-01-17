@@ -1,0 +1,100 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* navigation bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar h1{
+    margin: 0;
+}
+
+    /* Hero Section */
+
+.hero h2{
+    margin-top: 20px;
+}
+.hero .cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.hero .cta-button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+/* carpool form */
+
+.carpool-form{
+  padding: 40px 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+
+.carpool-form form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.carpool-form label{
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.carpool-form input, .carpool-form button{
+    width: 100%;
+    padding: 10px;
+   margin: 10px 0;
+}
+
+.carpool-form button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Rides Section */
+
+.rides{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rides h3{
+    text-align: center;
+    width: 100%;
+}
+
+#rideResults{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
